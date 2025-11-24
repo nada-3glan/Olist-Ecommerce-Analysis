@@ -134,7 +134,9 @@ Shared conformed dimensions link two main fact tables.
   Contains line-level transaction details: product, seller, pricing, freight, timestamps, status, and reviews.
 
 * **Fact_OrderPayments**
-  Contains payment transaction data: payment type, installments, value.
+  Contains payment transaction data: payment type, installments, and value.
+
+  
 
 ### 4.3 Dimension Tables
 
@@ -145,6 +147,8 @@ Shared conformed dimensions link two main fact tables.
 * Dim_Date
 
 All dimensions use surrogate keys and support SCD Type 1.
+
+<img width="1148" height="800" alt="DWH Architecture" src="https://github.com/user-attachments/assets/a02a988c-bfbe-4157-ba69-cd1fcde2c454" />
 
 ---
 
@@ -165,6 +169,28 @@ Advantages:
 * Ensures referential integrity
 * Allows all fact rows to load
 * Makes missing data explicit and traceable
+
+#### Customer_Dim:
+<img width="1920" height="1080" alt="Customer_Dim" src="https://github.com/user-attachments/assets/d9261252-ed34-4344-8b0f-789df2755de2" />
+
+#### Product_Dim:
+<img width="1920" height="1080" alt="Product_Dim" src="https://github.com/user-attachments/assets/3929e78c-a835-44a0-9562-af97486eafc0" />
+
+
+#### Seller_Dim:
+<img width="1920" height="1080" alt="Seller_Dim" src="https://github.com/user-attachments/assets/475766c9-80df-4a97-88d3-2a118a2b7a65" />
+
+
+#### Review_Dim:
+<img width="1920" height="1080" alt="Review_Dim" src="https://github.com/user-attachments/assets/f204b118-6104-4076-aa12-1cdafa8241ba" />
+
+
+#### OrderItems_Fact:
+<img width="1920" height="1080" alt="Order_items_fact" src="https://github.com/user-attachments/assets/ccccd042-4a74-47cc-a2d8-12158f1e83c2" />
+
+
+#### OrderPayment_Fact
+<img width="1920" height="1080" alt="OrderPayment_Fact" src="https://github.com/user-attachments/assets/64a570aa-2054-437d-8b9e-79725d289f19" />
 
 ---
 
