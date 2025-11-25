@@ -30,10 +30,9 @@
 
    * [6.1 Measures and KPIs](#61-measures-and-kpis)
    * [6.2 Dashboard Overview](#62-dashboard-overview)
-7. [Screenshots](#screenshots)
-8. [Technologies Used](#technologies-used)
-9. [Project Structure](#project-structure)
-10. [How to Run the Project](#how-to-run-the-project)
+7. [Technologies Used](#technologies-used)
+8. [Project Structure](#project-structure)
+9. [How to Run the Project](#how-to-run-the-project)
 
 ---
 
@@ -210,23 +209,25 @@ DAX measures developed include:
 
 ### 6.2 Dashboard Overview
 
+#### Sales & Payments:
 A multi-page Power BI dashboard visualizes key findings on delivery performance, product trends, seller behavior, review patterns, and revenue insights.
+<img width="1322" height="740" alt="image" src="https://github.com/user-attachments/assets/28297b82-4e7c-459e-8e27-d0ab7d95513f" />
 
----
+![ad48b1](https://github.com/user-attachments/assets/4bde5c69-d738-4050-9fc0-b31704b822a5)
 
-## 7. Screenshots
+#### Customers & Sellers:
+<img width="1326" height="745" alt="image" src="https://github.com/user-attachments/assets/3244d0c7-de09-4e7d-a300-487c5703d890" />
 
-Add your images here:
+#### Delivery Analysis:
+<img width="1327" height="741" alt="image" src="https://github.com/user-attachments/assets/0e018692-69ef-4019-88af-0d540f907f91" />
 
-* Data Warehouse ERD
-* Dimension Load Packages
-* Fact Load Packages
-* SSIS Control Flow
-* Power BI Dashboard
+<img width="1331" height="743" alt="image" src="https://github.com/user-attachments/assets/39f95578-87f0-4f38-b87e-9a7ae5b288e0" />
 
----
+![ad48sd](https://github.com/user-attachments/assets/bef1904b-5e08-4ea1-b476-82ff735f1920)
 
-## 8. Technologies Used
+
+
+## 7. Technologies Used
 
 * SQL Server
 * SSIS (SQL Server Integration Services)
@@ -237,7 +238,7 @@ Add your images here:
 
 ---
 
-## 9. Project Structure
+## 8. Project Structure
 
 ```
 ├── SQL/
@@ -256,7 +257,7 @@ Add your images here:
 
 ---
 
-## 10. How to Run the Project
+## 9. How to Run the Project
 
 ### 1. Set up the database:
 
