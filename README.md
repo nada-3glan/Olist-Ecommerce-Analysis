@@ -277,6 +277,3 @@ A multi-page Power BI dashboard visualizes key findings on delivery performance,
 * Refresh all tables
 * Review dashboards and KPIs
 
----
-
-If you want, I can **add badges for languages, tools, license, or contributors**, or help you **upload this to GitHub** with proper formatting.
